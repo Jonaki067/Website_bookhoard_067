@@ -1,0 +1,153 @@
+    <!--
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-book">bookhoard</i></a>
+            <form action="" class="search-form">
+                <input type="search" name="" placeholder="search here..." id="search-box">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <a href="login.html" class="user-icon">
+                    <i class="fas fa-user"></i>
+                  </a>
+                
+
+            </div>
+        </div>
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="index.html">home</a>
+                <a href="featured.html">featured</a>
+                <a href="arrivals.html">arrivals</a>
+                <a href="review.html">reviews</a>
+                <a href="blog.html">blog</a>
+            </nav>
+        </div>
+    </header>
+
+    <nav class="bottom-navbar">
+        <a href="index.html" class="fas fa-home"></a>
+        <a href="featured.html" class="fas fa-list"></a>
+        <a href="arrivals.html" class="fas fa-tags"></a>
+        <a href="review.html" class="fas fa-comments"></a>
+        <a href="blog.html" class="fas fa-blog"></a>
+    </nav>
+</body>
+
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Blogs</title>
+    <style>
+        /* Add your custom CSS styles for the blog page here */
+        .blogs {
+            text-align: center;
+        }
+
+        .heading {
+            margin-top: 50px;
+        }
+
+        .blogs-slider {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .box {
+            width: 300px;
+            margin: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+
+        .image img {
+            width: 100%;
+            height: auto;
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 8px 16px;
+            text-decoration: none;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <section class="blogs" id="blogs">
+        <h1 class="heading"><span>Our Blogs</span></h1>
+
+        <div class="blogs-slider">
+            <div class="wrapper">
+                <div class="box">
+                    <div class="image">
+                        <img src="image/blog2.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Blog Title 1</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minus a architecto similique sequi, hic commodi recusandae alias autem ut.</p>
+                        <a href="blog-details.html" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="image/blog1.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Blog Title 2</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minus a architecto similique sequi, hic commodi recusandae alias autem ut.</p>
+                        <a href="blog-details.html" class="btn">Read More</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="image/blog3.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Blog Title 3</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis minus a architecto similique sequi, hic commodi recusandae alias autem ut.</p>
+                        <a href="blog-details.html" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
